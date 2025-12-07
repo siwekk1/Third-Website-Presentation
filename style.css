@@ -141,3 +141,15 @@ cursor: pointer;
 background-color: #3557a2;
 cursor: pointer;
 }
+#lalala{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#tresc{
+    font-size: 25px;
+}
+a.tilelink{
+    color: #ffffff;
+    text-decoration: none;
+}
