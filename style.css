@@ -44,6 +44,12 @@ text-align: center;
     float: left;
     text-align: center;
 }
+.tile1:hover{
+
+background-color: #2084c2;
+cursor: pointer;
+}
+
 .tile2{
     margin: 10px;
     width: 230px;
@@ -51,6 +57,10 @@ text-align: center;
     background-color: #666666;
     float: left;
     text-align: center;
+}
+.tile2:hover{
+    background-color: #555555;
+    cursor: pointer;
 }
 .tile3{
     margin: 10px;
@@ -60,6 +70,10 @@ text-align: center;
     float: left;
     text-align: center;
 }
+.tile3:hover{
+    background-color: #82c637;
+    cursor: pointer;
+}
 .title4{
 margin: 10px;
     width: 420px;
@@ -68,14 +82,16 @@ margin: 10px;
     text-align: center;
     font-size: 26px;
     padding: 30px;
+    line-height: 150%;
 
 }
 .tile5{
     margin: 10px;
-    width: 480px;
-    height: 304px;
+    width: 420px;
+    height: 244px;
     background-color: #666666;
-    text-align: center;
+    text-align: justify;
+    padding: 30px;
 }
 #yt{
     background-color: #d94348;
@@ -84,12 +100,22 @@ margin: 10px;
     height: 142px;
     float: left;
 }
+#yt:hover{
+
+background-color: #c83237;
+cursor: pointer;
+}
 #google{
     background-color: #d95333;
     margin: 10px;
     width: 105px;
     height: 142px;
     float: left;
+}
+#google:hover{
+
+background-color: #c84222;
+cursor: pointer;
 }
 #github{
     background-color: #000000;
@@ -98,10 +124,20 @@ margin: 10px;
     height: 142px;
     float: left;
 }
+#github:hover{
+
+background-color: #111111;
+cursor: pointer;
+}
 #facebook{
     background-color: #4668b3;
     margin: 10px;
     width: 105px;
     height: 142px;
     float: left;
+}
+#facebook:hover{
+
+background-color: #3557a2;
+cursor: pointer;
 }
