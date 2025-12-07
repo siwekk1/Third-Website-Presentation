@@ -7,3 +7,10 @@ body{
     margin-right: auto;
     width: 1000px;
 }
+.rectangle{
+width: 1000px;
+margin: 20px;
+}
+.square{
+    float:left;
+}
